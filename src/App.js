@@ -28,7 +28,7 @@ function App() {
     let prog = 0;
 
     if(breakTime)
-    sec=5
+    min=5;
 
     let diff
     if(min!=0)
