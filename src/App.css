@@ -1,38 +1,66 @@
-.App {
+
+.main-body{
+padding: 10px 400px;
+max-width: 620px
+}
+.App{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: rgb(217, 85, 80);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-family:  'Nunito', sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.box{
+  margin-top: 2em;
+  background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 0px 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.timer {
+  font-size: 120px;
+  font-weight: bold;
+  margin-top: 20px;
 }
+
+.button-start{
+    cursor: pointer;
+    border: none;
+    margin: 20px 0px 0px;
+    padding: 0px 12px;
+    border-radius: 4px;
+    box-shadow: rgb(235 235 235) 0px 6px 0px;
+    font-family:  'Nunito', sans-serif;
+    font-size: 22px;
+    height: 55px;
+    color: rgb(217, 85, 80);
+    font-weight: bold;
+    width: 200px;
+    background-color: white;
+    transition: color 0.5s ease-in-out 0s;
+
+}
+
+.button-stop {
+  cursor: pointer;
+  border: none;
+  margin: 20px 0px 0px;
+  padding: 0px 12px;
+  border-radius: 4px;
+  font-family:  'Nunito', sans-serif;
+  font-size: 22px;
+  height: 55px;
+  color: rgb(217, 85, 80);
+  font-weight: bold;
+  width: 200px;
+  background-color: white;
+  transform: translateY(6px);
+  box-shadow: none;
+  transition: color 0.5s ease-in-out 0s;
+}
+
